@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+backend/data/.secret.key
+
+# Local databases
+backend/data/*.db
+backend/test_privacyguard.db
+mock_api/mock_data.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+
+# Generated files
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
